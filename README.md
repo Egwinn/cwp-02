@@ -1,2 +1,2 @@
 # cwp-02
-The second laboratory work on Cross Platform Programming
+# The second laboratory work on Cross Platform Programming

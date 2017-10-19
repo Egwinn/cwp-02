@@ -29,7 +29,7 @@ client.on('data', (data) => {
     client.destroy();
   if (data === good)
     sendQuestion();
-  else {
+  if (data !== good && data !== bad) {
     let qst = questions[index];
     let answer = qst.good;
     console.log(`\nQuestion: ${qst.question}`);
